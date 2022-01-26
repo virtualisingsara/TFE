@@ -8,8 +8,7 @@ public class EnemyThrowback : MonoBehaviour
     {
         if(other.tag == "Weapon")
         {
-            Debug.Log("COLLIDE");
-            transform.position -= Vector3.back;
+            transform.position -= (Vector3.back *2);
         }
     }
 }

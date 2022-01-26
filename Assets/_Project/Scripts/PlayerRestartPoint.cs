@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerRestartPoint : MonoBehaviour
 {
-    [SerializeField] private Transform startPoint;
+    [SerializeField] private Transform startPoint2;
     [SerializeField] private GameObject enemy1;
     [SerializeField] private GameObject enemy2;
     [SerializeField] private GameObject enemy3;
@@ -13,11 +13,11 @@ public class PlayerRestartPoint : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            transform.position = startPoint.position;
-            transform.rotation = startPoint.rotation;
+            transform.position = startPoint2.position;
+            transform.rotation = startPoint2.rotation;
             enemy1.transform.position = new Vector3(21, 2, -17);
-            enemy1.transform.position = new Vector3(19, 2, -12);
-            enemy1.transform.position = new Vector3(24, 2, -17);
+            enemy2.transform.position = new Vector3(19, 2, -12);
+            enemy3.transform.position = new Vector3(24, 2, -17);
         }
     }
 }

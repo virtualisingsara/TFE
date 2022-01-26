@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 0}
+  _enemy1: {fileID: 0}
+  _enemy2: {fileID: 0}
+  _enemy3: {fileID: 0}
+  _weapon: {fileID: 0}
 --- !u!1001 &4809478594834842693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38,15 +42,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 875197378267654788, guid: 00408a64b74c9714f86e890be7be129d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.010000229
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 875197378267654788, guid: 00408a64b74c9714f86e890be7be129d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 875197378267654788, guid: 00408a64b74c9714f86e890be7be129d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.458
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 875197378267654788, guid: 00408a64b74c9714f86e890be7be129d, type: 3}
       propertyPath: m_LocalRotation.w

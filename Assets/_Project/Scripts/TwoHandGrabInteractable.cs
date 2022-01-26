@@ -19,12 +19,6 @@ public class TwoHandGrabInteractable : XRGrabInteractable
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public override void ProcessInteractable(XRInteractionUpdateOrder.UpdatePhase updatePhase)
     {
         if(secondInteractor && selectingInteractor)

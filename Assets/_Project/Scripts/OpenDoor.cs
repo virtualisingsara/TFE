@@ -9,10 +9,19 @@ public class OpenDoor : MonoBehaviour
     [SerializeField] private GameObject _enemy2;
     [SerializeField] private GameObject _enemy3;
     [SerializeField] private GameObject _weapon;
+    [SerializeField] private GameObject audioManager;
+    AudioSource audioData;
+
+    void Start()
+    {
+        audioManager.GetComponent<AudioSource>();
+        audioData = audioManager.GetComponent<AudioSource>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         door.SetActive(false);
+        audioData.Stop();
         if (_enemy1 && _enemy2 && _enemy3)
         {
             Destroy(_enemy1);
