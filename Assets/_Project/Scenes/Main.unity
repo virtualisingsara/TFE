@@ -11837,7 +11837,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &931493853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19058,6 +19058,10 @@ PrefabInstance:
     - target: {fileID: 9031084296993589394, guid: 09b6688517ad87c4fac23aaa4e21c506, type: 3}
       propertyPath: m_Name
       value: Pedestal1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031084296993589394, guid: 09b6688517ad87c4fac23aaa4e21c506, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9031084296993589394, guid: 09b6688517ad87c4fac23aaa4e21c506, type: 3}
       propertyPath: m_StaticEditorFlags
