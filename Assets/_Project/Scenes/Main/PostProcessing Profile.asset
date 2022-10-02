@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: PostProcessing Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 1601376265171764625}
---- !u!114 &1601376265171764625
+  - {fileID: 1456760281833908812}
+--- !u!114 &1456760281833908812
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -49,4 +49,4 @@ MonoBehaviour:
     max: 1
   rounded:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
