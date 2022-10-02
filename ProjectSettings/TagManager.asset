@@ -4,11 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Weapon
+  - Token1
+  - Token2
+  - Token3
+  - Token4
+  - Token5
+  - Token6
   - Enemy
-  - ClimbInteractable
-  - Helmet
-  - Obstacle
   layers:
   - Default
   - TransparentFX

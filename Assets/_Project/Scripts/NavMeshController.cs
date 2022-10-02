@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class NavMeshController : MonoBehaviour
 {
-    public Transform objetive;
+    [SerializeField] private Transform objetive;
     private NavMeshAgent agent;
 
     // Start is called before the first frame update
@@ -17,6 +17,13 @@ public class NavMeshController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        StartCoroutine(followPlayer());
+    }
+
+    IEnumerator followPlayer()
+    {
+        yield return new WaitForSeconds(5);
         agent.destination = objetive.position;
     }
+
 }
